@@ -1,4 +1,4 @@
-
+body{font-family: Arial, Helvetica, sans-serif;}
 body{margin:0 0 0 0; line-height:1em; max-width:100%;}
 a, a:visited{color:inherit;text-decoration:none;}
 .cont{position: relative;}
@@ -139,7 +139,14 @@ ul{list-style: none;}
     position:absolute;bottom:24%
 }
 /* 広告レスポンシブルデザイン */
-
+@media(max-width:480px){
+    .inner_tag i{
+        display:none
+    }
+    .inner_tag{
+        font-size:12px;
+    }
+}
 
 @media (min-width:820px){
 
